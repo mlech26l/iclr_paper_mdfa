@@ -1,6 +1,27 @@
-# Code submission of the paper **Learning representations for binary-classification without backpropagation**
+# Code repository of **Learning representations for binary-classification without backpropagation**
 
-Tested with TensorFlow version 1.13.1 and 1.14.0
+## Overview
+
+|  | |
+| --- | --- |
+| **Title** | Learning representations for binary-classification without backpropagation |
+| **Conference** | ICLR 2020 (Poster) | 
+| **PDF** | [Link](https://openreview.net/pdf?id=Bke61krFvS) |
+| **openreview submission** | [Link](https://openreview.net/forum?id=Bke61krFvS)  |
+
+
+![alt text](misc/img_0.png)
+
+## Requirements 
+
+Requires python3 and TensorFlow 1.x (tested with 1.14.0)
+
+To create a new virtual python3 environment run
+```bash
+python3 -m venv mdfa_env
+source mdfa_env/bin/activate
+pip3 install tensorflow-gpu==1.14.0
+```
 
 ## Module descriptions:
 
@@ -55,3 +76,16 @@ w = maximum(w,0)
 ```
 
 For more details see ```fa_model.py``` lines 265-271 and 409-417.
+
+## Bibtex
+
+```tex
+@inproceedings{
+    lechner2020learning,
+    title={Learning representations for binary-classification without backpropagation},
+    author={Mathias Lechner},
+    booktitle={International Conference on Learning Representations},
+    year={2020},
+    url={https://openreview.net/forum?id=Bke61krFvS}
+}
+```
